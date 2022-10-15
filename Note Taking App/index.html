@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taking App</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class ="notes" id="app">
+        <div class="notes_sidebar">
+            <button class="notes_add"  type="button">Add Note</button>
+            <div class="notes_list">
+                <div class="notes_list-item notes_list-item-selected">
+                        <div class="notes_small-title">Lecture note</div>
+                        <div class="notes_small-body">I learnt nothing today</div>
+                        <div class="notes_small-updated">Thursday  5:30 PM</div>
+                </div>
+            </div>
+        </div>
+        <div class= "notes_preview">
+                <input class="notes_title" type="text" placeholder="Enter a  Title ">
+                <textarea class="notes_body">I am the notes body.....</textarea>
+        </div>        
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
